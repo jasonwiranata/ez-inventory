@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">EZInventory</string>
+    <string name="splash_image_preview">Splash Screen Icon</string>
+    <string name="password">Password</string>
+    <string name="home">Home</string>
+    <string name="production">Production</string>
+    <string name="sales">Sales</string>
+    <string name="production_image">Icon Button Production</string>
+    <string name="sales_image">Icon Button Sales</string>
+    <string name="transaction">View Transactions</string>
+    <string name="inventory">View Inventory</string>
+    <string name="inventory_image">Icon Button Inventory</string>
+    <string name="transaction_image">Icon Button Transaction</string>
+    <string name="productionId">Production ID:</string>
+    <string name="productionDate">Production Date:</string>
+    <string name="materialName">Material Name:</string>
+    <string name="materialUsed">Material Used:</string>
+    <string name="materialUnit">Material Unit:</string>
+    <string name="productId">Product ID:</string>
+    <string name="productName">Product Name:</string>
+    <string name="productQty">Product Qty:</string>
+    <string name="productUnit">Product Unit:</string>
+    <string name="submit">SUBMIT</string>
+    <string name="salesId">Sales ID:</string>
+    <string name="transactionId">Transaction ID:</string>
+    <string name="transactionDate">Transaction Date:</string>
+    <string name="productSold">Product Sold:</string>
+    <string name="productMade">Product Made:</string>
+    <string name="productionList">View Productions</string>
+</resources>

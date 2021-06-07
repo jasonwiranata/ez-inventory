@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "1099125151711",
+    "firebase_url": "https://smart-arc-313102-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "smart-arc-313102",
+    "storage_bucket": "smart-arc-313102.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099125151711:android:4e85120298d8af2222966a",
+        "android_client_info": {
+          "package_name": "com.b21cap0380.ezinventory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099125151711-gu4kga3t5bb28mqhhjilehn8cvvh4pfc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.b21cap0380.ezinventory",
+            "certificate_hash": "c9e286c6979c4661a78475e58753071daef4400a"
+          }
+        },
+        {
+          "client_id": "1099125151711-uhb2ssbuugloh2d2qe1b0t42errnohtt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfRXHohCCh9SR_lbDROfTcyK7asEpEzfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099125151711-uhb2ssbuugloh2d2qe1b0t42errnohtt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099125151711:android:d112df43f485662a22966a",
+        "android_client_info": {
+          "package_name": "com.b21cap0380.ezinventorymanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099125151711-fg1iekdgvop2ht4oo98411nm57ocqn89.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.b21cap0380.ezinventorymanagement",
+            "certificate_hash": "c9e286c6979c4661a78475e58753071daef4400a"
+          }
+        },
+        {
+          "client_id": "1099125151711-np1i0i13ecomge5rc2et50bh1mm963jm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.b21cap0380.ezinventorymanagement",
+            "certificate_hash": "84e4aafe553ad7951ae83900246f28ce7b676705"
+          }
+        },
+        {
+          "client_id": "1099125151711-uhb2ssbuugloh2d2qe1b0t42errnohtt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfRXHohCCh9SR_lbDROfTcyK7asEpEzfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099125151711-uhb2ssbuugloh2d2qe1b0t42errnohtt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
