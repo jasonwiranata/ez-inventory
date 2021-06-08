@@ -44,7 +44,7 @@ Ez-inventory have 5 features, these features are:
    Production ID, Production Date, Material Name, Material Used, Material Unit, Product ID, Product Name, Product QTY, Product Unit
 7. View Transactions : In the View Transactions, the app will give the user information of the transactions, such as;
    Transaction ID, Transaction Date, Product ID, Product Name, Product Sold, Product Unit. 
-**Note that this features are all synced together.
+**Note that this features are all synced together.**
 
 ## Features that we think need to be improved / make
 1. Production needs validation for duplicate items
