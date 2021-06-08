@@ -11,4 +11,8 @@ data class ProductionData(
     var materialName: String? = "",
     var materialUsed: Int = 0,
     var materialUnit: String? = "",
+    var productId: String? = null,
+    var productName: String? = null,
+    var productMade: Int = 0,
+    var productUnit: String? = null,
 )

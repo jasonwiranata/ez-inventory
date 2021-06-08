@@ -21,9 +21,7 @@ class ProductionActivity : AppCompatActivity() {
         _binding = ActivityProductionBinding.inflate(layoutInflater)
         setContentView(binding.root)
         database = FirebaseDatabase.getInstance()
-        Log.d("Test1","OK")
         myRef = database.reference
-        Log.d("Test2","OK")
 
         binding.submitProduction.setOnClickListener {
             addProduction()
@@ -36,31 +34,64 @@ class ProductionActivity : AppCompatActivity() {
         val materialName = binding.tiMaterialName.text.toString()
         val materialUsed = Integer.parseInt(binding.tiMaterialUsed.text.toString())
         val materialUnit = binding.tiMaterialUnit.text.toString()
-        val productionData = ProductionData(productionId, productionDate, materialName, materialUsed, materialUnit)
         val productId = binding.tiProductId.text.toString()
         val productName = binding.tiProductName.text.toString()
         var productQty = Integer.parseInt(binding.tiProductQty.text.toString())
         val productUnit = binding.tiProductUnit.text.toString()
+        val productionData = ProductionData(
+            productionId,
+            productionDate,
+            materialName,
+            materialUsed,
+            materialUnit,
+            productId,
+            productName,
+            productQty,
+            productUnit
+        )
         val inventoryData = InventoryData(productId, productName, productQty, productUnit)
-        myRef.child("production").child(productionId).setValue(productionData).addOnSuccessListener {
-            Log.d("Production Add", "SUCCESS")
-        }.addOnFailureListener {
+        myRef.child("production").child(productionId).setValue(productionData)
+            .addOnSuccessListener {
+                Toast.makeText(this, "Production item successfully added", Toast.LENGTH_SHORT)
+                    .show()
+                Log.d("Production Add", "SUCCESS")
+            }.addOnFailureListener {
             Log.d("Production Failure", "$it")
         }
+
         myRef.child("inventory").child(productId).child("productQty").get().addOnSuccessListener {
-            productQty += Integer.valueOf(it.getValue().toString())
-            val inventoryData2 = InventoryData(productId, productName, productQty, productUnit)
-            myRef.child("inventory").child(productId).setValue(inventoryData2).addOnSuccessListener {
-                Log.d("Inventory Add", "SUCCESS")
-            }.addOnFailureListener {
-                Log.d("Inventory Failure", "$it")
-            }
-        }.addOnFailureListener {
-            myRef.child("inventory").child(productId).setValue(inventoryData).addOnSuccessListener {
-                Log.d("Inventory Add", "SUCCESS")
-            }.addOnFailureListener {
-                Log.d("Inventory Failure", "$it")
-            }
+            if (it.exists()) {
+                productQty += Integer.valueOf(it.getValue().toString())
+                val inventoryData2 = InventoryData(productId, productName, productQty, productUnit)
+                myRef.child("inventory").child(productId).setValue(inventoryData2)
+                    .addOnSuccessListener {
+                        Toast.makeText(this, "Inventory Updated", Toast.LENGTH_SHORT).show()
+                        Log.d("Inventory Update", "SUCCESS")
+                        clearFields()
+                    }.addOnFailureListener {
+                    Log.d("Inventory Update", "$it")
+                }
+            }else{
+                myRef.child("inventory").child(productId).setValue(inventoryData).addOnSuccessListener {
+                    Toast.makeText(this, "Inventory item successfully added", Toast.LENGTH_SHORT).show()
+                    Log.d("Inventory Add", "SUCCESS")
+                    clearFields()
+                }.addOnFailureListener {
+                    Log.d("Inventory Add", "$it")
+                }
             }
         }
     }
+
+    private fun clearFields(){
+        binding.tiProductionId.setText("")
+        binding.tiProductionDate.setText("")
+        binding.tiMaterialName.setText("")
+        binding.tiMaterialUsed.setText("")
+        binding.tiMaterialUnit.setText("")
+        binding.tiProductId.setText("")
+        binding.tiProductName.setText("")
+        binding.tiProductQty.setText("")
+        binding.tiProductUnit.setText("")
+    }
+}
