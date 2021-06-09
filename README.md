@@ -1,9 +1,9 @@
 # B21 - CAP0380 , Ez-Inventory
 
 This Group Consist of :
-1. Jason Wiranata Ivanovich (A0050353)
-2. Ajeng Ristantia (C2792539)
-3. Andre Setiawan Wijaya (C0050467)
+1. Jason Wiranata Ivanovich (A0050353) - Mobile Development (Android) [Git Profile](https://github.com/jasonwiranata/)
+2. Ajeng Ristantia (C2792539) - Cloud Computing [Git Profile](https://github.com/ajengristantia)   
+3. Andre Setiawan Wijaya (C0050467) - Cloud Computing [Git Profile](https://github.com/swerdd)
 
 ## Overview
 
