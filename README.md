@@ -50,6 +50,15 @@ Ez-inventory have 5 features, these features are:
    We obtain the values of the objects by using a ValueEventListener from Firebase to get a snapshot of the data.
 **Note that this features are all synced together.**
 
+## Screenshot
+![SplashScreen](https://github.com/swerdd/Ez-inventory-image/blob/main/splash%20screen.png)
+![Homepage](https://github.com/swerdd/Ez-inventory-image/blob/main/Homepage.png)
+![Production](https://github.com/swerdd/Ez-inventory-image/blob/main/production.png)
+![Transaction](https://github.com/swerdd/Ez-inventory-image/blob/main/Transaction.png)
+![Inventory](https://github.com/swerdd/Ez-inventory-image/blob/main/Inventory.png)
+![Production_List](https://github.com/swerdd/Ez-inventory-image/blob/main/production_list.png)
+![Transaction_List](https://github.com/swerdd/Ez-inventory-image/blob/main/Transaction_list.png)
+
 ## Features that we think need to be improved / make
 1. Production needs validation for duplicate items
 2. Conversion unit function for different SI unit
