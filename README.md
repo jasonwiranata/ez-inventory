@@ -29,21 +29,25 @@ Ez-inventory have 5 features, these features are:
    Product Name, 
    Product Qty, and 
    Product Unit. 
-   These data will be stored in Firebase realtime database
-3. Sales : In the sales feature the app will ask user to input the :
+   The app will take these values from their respective EditText fields, save them in variables, create their respective data models (ProductionData and InventoryData),
+   and then insert them into their respective child nodes in the Firebase Realtime Database.
+2. Sales : In the sales feature the app will ask user to input the :
    Transaction ID, 
    Transaction Date, 
    Product ID, 
    Product Name, 
    Product Sold, and 
    Product Unit. 
-   These data will be stored in Firebase realtime database
-5. View Inventory : In the View Inventory feature, the app will give the user information of the product, such as ;
+   The app will take these values from their respective EditText fields, save them in variables, create their respective data models (TransactionData and InventoryData),
+   and then insert the new transaction as a new item in the database, as well as update the Inventory by deducting the amount sold from the amount in stock.
+3. View Inventory : In the View Inventory feature, the app will give the user information of the product, such as ;
    Product ID, Product Name, Product QTY, Product Unit
-6. View Productions : In the View productions feature, the app will give the user information of the production, such as;
+4. View Productions : In the View productions feature, the app will give the user information of the production, such as;
    Production ID, Production Date, Material Name, Material Used, Material Unit, Product ID, Product Name, Product QTY, Product Unit
-7. View Transactions : In the View Transactions, the app will give the user information of the transactions, such as;
+5. View Transactions : In the View Transactions, the app will give the user information of the transactions, such as;
    Transaction ID, Transaction Date, Product ID, Product Name, Product Sold, Product Unit. 
+   For each of aforementioned Views, we implemented simple Adapters that accepts an ArrayList of their respective data objects (InventoryData for Inventory, and so on).
+   We obtain the values of the objects by using a ValueEventListener from Firebase to get a snapshot of the data.
 **Note that this features are all synced together.**
 
 ## Features that we think need to be improved / make
