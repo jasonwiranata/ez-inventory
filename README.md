@@ -51,14 +51,11 @@ Ez-inventory have 5 features, these features are:
 **Note that this features are all synced together.**
 
 ## Screenshot
-(Splash Screen) ![SplashScreen](https://github.com/swerdd/Ez-inventory-image/blob/main/splash%20screen.png)
-<br>
-![Homepage](https://github.com/swerdd/Ez-inventory-image/blob/main/Homepage.png)
-![Production](https://github.com/swerdd/Ez-inventory-image/blob/main/production.png)
-![Transaction](https://github.com/swerdd/Ez-inventory-image/blob/main/Transaction.png)
-![Inventory](https://github.com/swerdd/Ez-inventory-image/blob/main/Inventory.png)
-![Production_List](https://github.com/swerdd/Ez-inventory-image/blob/main/production_list.png)
-![Transaction_List](https://github.com/swerdd/Ez-inventory-image/blob/main/Transaction_list.png)
+
+<img src ="https://github.com/swerdd/Ez-inventory-image/blob/main/splash%20screen.png" width="25%" height="25%"> <img src ="https://github.com/swerdd/Ez-inventory-image/blob/main/Homepage.png" width="25%" height="25%"> <img src ="https://github.com/swerdd/Ez-inventory-image/blob/main/production.png" width="25%" height="25%"><img src ="https://github.com/swerdd/Ez-inventory-image/blob/main/Transaction.png" width="25%" height="25%">
+<img src ="https://github.com/swerdd/Ez-inventory-image/blob/main/Inventory.png" width="25%" height="25%">
+<img src ="https://github.com/swerdd/Ez-inventory-image/blob/main/production_list.png" width="25%" height="25%">
+<img src ="https://github.com/swerdd/Ez-inventory-image/blob/main/Transaction_list.png" width="25%" height="25%">
 
 ## Features that we think need to be improved / make
 1. Production needs validation for duplicate items
@@ -78,6 +75,9 @@ Ez-inventory have 5 features, these features are:
 
 ## Youtube Link:
 [Youtube](https://youtu.be/qlNun60bX8g)
+
+## Gdrive Link:
+[Gdrive](https://drive.google.com/file/d/1vDHcTdPI4V2m_JVQ4U959wIT05v8433J/view?usp=sharing)
 
 ## Contribution
 **Pull request are denied, because we are more likely to remake the project.**
