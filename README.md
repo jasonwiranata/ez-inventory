@@ -67,7 +67,7 @@ Ez-inventory have 5 features, these features are:
 [Go-To Market](https://docs.google.com/presentation/d/1RL5Y3AYhjTbI1nsLoF-HaL4rwKQZxklvr_ZP5O1hHrA/edit?usp=sharing)
 
 ## Youtube Link:
-[Youtube](https://youtube.com)
+[Youtube](https://youtu.be/qlNun60bX8g)
 
 ## Contribution
 **Pull request are denied, because we are more likely to remake the project.**
