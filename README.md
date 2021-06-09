@@ -51,7 +51,9 @@ Ez-inventory have 5 features, these features are:
 **Note that this features are all synced together.**
 
 ## Screenshot
+(Splash Screen)
 ![SplashScreen](https://github.com/swerdd/Ez-inventory-image/blob/main/splash%20screen.png)
+<br>
 ![Homepage](https://github.com/swerdd/Ez-inventory-image/blob/main/Homepage.png)
 ![Production](https://github.com/swerdd/Ez-inventory-image/blob/main/production.png)
 ![Transaction](https://github.com/swerdd/Ez-inventory-image/blob/main/Transaction.png)
